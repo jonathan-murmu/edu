@@ -133,6 +133,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = 'static_institude/'
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 AUTH_USER_MODEL='accounts.User'
 
