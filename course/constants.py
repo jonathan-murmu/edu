@@ -1,0 +1,1 @@
+MAX_STUDENTS = 5
